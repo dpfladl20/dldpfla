@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 원본데이터 = pd.read_csv('kyobo.csv', encoding='cp949')
 
 x= 원본데이터.iloc[:,:-1].values
-y= 원본데이터.iloc[:,-1].values
+y= 원본데이터.iloc[:,-1].values2
 
 test = LinearRegression()
 test.fit(x,y)
