@@ -29,4 +29,4 @@ def ShowVideo(video_path):
 ShowVideo('model.mp4')
 
 
-#웹캠 (얼굴찾기)
+#웹캠 (얼굴찾기) - 테스트는 동영상으로
